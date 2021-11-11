@@ -63,7 +63,7 @@ callback = (error, response) => {
 }
 
 function isCorrectPhone(telephone) {
-    if (!telephone && telephone.length !== 9 && telephone.substring(0, 2) !== '62' && telephone.substring(0, 2) !== '65' && telephone.substring(0, 2) !== '66') return false;
+    if (!telephone && telephone.length !== 9 && !telephone.startsWith('6')) return false;
     return true;
 }
 
