@@ -1,4 +1,11 @@
 {
     "mongoURI": "mongodb://127.0.0.1:27017/db",
-    "secret": "mak;jfafid;keuiepie"
+    "secret": "mak;jfafid;keuiepie",
+    "dhis2url" : "https://...",
+    "dhis2token": "thetoken",
+    "smsgatewaykey" : "the gateway key",
+    "vonage": {
+        "apiKey": "vonage key",
+        "secret": "vonage secret",
+        "sendername" : "INFO VACCIN"
 }
