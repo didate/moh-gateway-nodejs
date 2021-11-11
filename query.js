@@ -18,7 +18,6 @@ const query = async () => {
     tomorrow.setDate(tomorrow.getDate() + 1)
 
     let rdv = `${tomorrow.getFullYear()}-${tomorrow.getMonth()+1}-${tomorrow.getDate()}`;
-    rdv = '2021-11-10';
     data = []
     const rdvDataElements = ['V6AbrEH09CE','VmyTzeLPT8z','cwfj1Ubuon4','Bnvjaea4Bq9','l7fYnoSokUv'];
     for (let index = 0; index < rdvDataElements.length; index++) {
