@@ -1,0 +1,22 @@
+{
+  "name": "gateway-moh",
+  "version": "1.0.0",
+  "description": "PEV SMS Gateway",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "didate",
+  "license": "MIT",
+  "dependencies": {
+    "@vonage/server-sdk": "^2.10.10",
+    "axios": "^0.24.0",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "node-cron": "^2.0.3",
+    "mongoose": "^6.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
