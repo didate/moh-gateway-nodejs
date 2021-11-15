@@ -27,7 +27,7 @@ app.post('/send-sms', (req, res) => {
 
     console.log(req.query);
     const API = req.query.smsapikey;
-    const TO = req.query.to;
+    const TO = `00224${req.query.to}`;
     const MESSAGE = req.query.content;
     const FROM = sendername;
 
